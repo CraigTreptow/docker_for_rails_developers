@@ -1,5 +1,7 @@
 FROM ruby:2.6
 
+LABEL maintainer="craig.treptow@gmail.com"
+
 RUN apt-get update -yqq && apt-get install -yqq --no-install-recommends \
   nodejs
 
